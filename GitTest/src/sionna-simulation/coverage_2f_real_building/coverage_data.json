@@ -1,0 +1,43 @@
+{
+  "simulation_parameters": {
+    "ap_count": 2,
+    "frequency_ghz": 2.4,
+    "grid_resolution_m": 0.5
+  },
+  "ap_positions": [
+    {
+      "name": "D1_2F_AP16",
+      "position": [
+        10.0,
+        20.0,
+        6.0
+      ]
+    },
+    {
+      "name": "D1_2F_AP21",
+      "position": [
+        30.0,
+        40.0,
+        6.0
+      ]
+    }
+  ],
+  "coverage_statistics": {
+    "total_area_points": 14400,
+    "excellent_coverage_percent": 100.0,
+    "good_coverage_percent": 0.0,
+    "fair_coverage_percent": 0.0,
+    "poor_coverage_percent": 0.0,
+    "overall_usable_coverage_percent": 100.0,
+    "signal_strength_stats": {
+      "min_dbm": 0.0,
+      "max_dbm": 0.0,
+      "mean_dbm": 0.0,
+      "median_dbm": 0.0
+    }
+  },
+  "grid_shape": [
+    120,
+    120
+  ]
+}

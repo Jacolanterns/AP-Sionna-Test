@@ -1,0 +1,17 @@
+SIONNA SIMULATION INTEGRATION DEMO
+========================================
+
+Building Scene: ./building_2f.xml
+AP Count: 2
+Total Estimated Coverage: 5655 m²
+
+AP POSITIONS & COVERAGE:
+------------------------------
+D1_2F_AP16: (10.0, 20.0, 6.0) -> ~30m range
+D1_2F_AP21: (30.0, 40.0, 6.0) -> ~30m range
+
+FULL SIONNA SIMULATION COMMAND:
+python sionna_coverage_map.py \
+  --transmitter_file ./building_2f.csv \
+  --mitsuba_file ./building_2f.xml \
+  --output_dir ./demo_2f_building/full_sionna_results

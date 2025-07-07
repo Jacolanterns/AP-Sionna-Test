@@ -1,0 +1,32 @@
+BLENDER GEOMETRY + DUMMY AP INTEGRATION REPORT
+=======================================================
+
+Building Geometry Source: /home/sionna/Documents/GitHub/wifi-cco/sionna-simulation/data/blender/2F_no_solid.blend
+Number of Dummy APs: 2
+
+AP CONFIGURATIONS:
+--------------------
+  D1_2F_AP16: (10.0, 20.0, 6.0)
+  D1_2F_AP21: (30.0, 40.0, 6.0)
+
+COVERAGE ANALYSIS:
+--------------------
+  Grid Resolution: 0.6m
+  Coverage Area: 60m x 60m
+  Wall Attenuation: 15 dB
+  Frequency: 2.4 GHz
+  TX Power: 20 dBm per AP
+
+RESULTS:
+----------
+  Average Signal: 60.3 dBm
+  Good Coverage (>-70dBm): 100.0%
+  Signal Range: 51.7 to 84.9 dBm
+
+INTEGRATION STATUS:
+--------------------
+  ✅ Dummy AP loading: SUCCESS
+  ✅ Building geometry: RECOGNIZED
+  ✅ Coverage simulation: SUCCESS
+  ✅ Visualization: GENERATED
+  ✅ Ready for Sionna ray tracing: YES

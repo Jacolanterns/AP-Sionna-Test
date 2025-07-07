@@ -1,0 +1,60 @@
+AP Coordinate Summary for Floor 2F
+==================================================
+
+Source file: ../data/2f.csv
+Number of APs: 2
+
+AP Coordinates (Sionna-compatible format):
+----------------------------------------
+  D1_2F_AP16: (10.0, 20.0, 6.0)
+  D1_2F_AP21: (30.0, 40.0, 6.0)
+
+Bounding Box:
+  X range: 10.0 to 30.0 meters
+  Y range: 20.0 to 40.0 meters
+  Z range: 6.0 to 6.0 meters
+
+==================================================
+SIONNA INTEGRATION INSTRUCTIONS
+==================================================
+
+1. Your AP coordinates are ready for Sionna simulation!
+
+2. To use with the existing Sionna scripts:
+
+   python sionna_coverage_map.py \
+     --transmitter_file ../data/2f.csv \
+     --mitsuba_file path/to/your/scene.xml \
+     --output_dir ./sionna_results
+
+3. CSV format compatibility:
+   ✓ Format: name,x,y,z (exactly what Sionna expects)
+   ✓ No header row (as required by load_transmitters())
+   ✓ Floating-point coordinates
+   ✓ 3D positions (X, Y, Z in meters)
+
+4. Integration with your ML pipeline:
+   - These coordinates can be used both for:
+     * Training ML models (current pipeline)
+     * Sionna ray tracing simulation
+   - Both systems use the same coordinate format
+   - Real and dummy coordinates work identically
+
+5. Example Sionna code structure:
+
+   from sionna.rt import Scene, Transmitter, PlanarArray
+   
+   # Load scene and transmitters
+   scene = Scene('scene.xml')
+   transmitters = load_transmitters('../data/2f.csv')
+   
+   # Add APs to scene
+   for name, position in transmitters:
+       tx = Transmitter(name=name, position=position)
+       scene.add(tx)
+   
+   # Configure and run simulation
+   scene.frequency = 2.4e9  # 2.4 GHz WiFi
+   coverage_map = scene.coverage_map(max_depth=8)
+
+Your custom AP layout is fully compatible with Sionna!

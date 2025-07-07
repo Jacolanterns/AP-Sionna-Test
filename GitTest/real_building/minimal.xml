@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<scene version="3.0.0">
+    <shape type="ply">
+        <string name="filename" value="2F_No_AP.ply"/>
+    </shape>
+</scene>

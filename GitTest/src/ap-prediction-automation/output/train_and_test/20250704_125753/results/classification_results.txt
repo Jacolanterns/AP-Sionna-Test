@@ -1,0 +1,75 @@
+Accuracy: 1.00
+
+Classification Report:
+
+Class: 0
+  precision: 1.00
+  recall: 1.00
+  f1-score: 1.00
+  support: 307.00
+
+Class: 1
+  precision: 1.00
+  recall: 1.00
+  f1-score: 1.00
+  support: 307.00
+
+Class: 2
+  precision: 1.00
+  recall: 1.00
+  f1-score: 1.00
+  support: 307.00
+
+Class: 3
+  precision: 1.00
+  recall: 1.00
+  f1-score: 1.00
+  support: 308.00
+
+Class: 4
+  precision: 1.00
+  recall: 1.00
+  f1-score: 1.00
+  support: 307.00
+
+Class: 5
+  precision: 1.00
+  recall: 1.00
+  f1-score: 1.00
+  support: 308.00
+
+Class: 6
+  precision: 1.00
+  recall: 1.00
+  f1-score: 1.00
+  support: 307.00
+
+Class: 7
+  precision: 1.00
+  recall: 1.00
+  f1-score: 1.00
+  support: 307.00
+
+accuracy: 1.00
+
+Class: macro avg
+  precision: 1.00
+  recall: 1.00
+  f1-score: 1.00
+  support: 2458.00
+
+Class: weighted avg
+  precision: 1.00
+  recall: 1.00
+  f1-score: 1.00
+  support: 2458.00
+
+Class distribution in test set:
+  D1_2F_AP16: 307
+  D1_2F_AP21: 307
+  D1_3F_AP08: 307
+  D1_3F_AP19: 308
+  D1_3F_AP21: 307
+  D1_3F_AP25: 308
+  D1_3F_AP26: 307
+  D1_3F_AP29: 307

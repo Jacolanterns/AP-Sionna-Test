@@ -1,0 +1,21 @@
+SIONNA SIMULATION INTEGRATION DEMO
+========================================
+
+Building Scene: ./simple_scene.xml
+AP Count: 6
+Total Estimated Coverage: 16965 m²
+
+AP POSITIONS & COVERAGE:
+------------------------------
+D1_3F_AP08: (15.0, 25.0, 9.0) -> ~30m range
+D1_3F_AP19: (35.0, 45.0, 9.0) -> ~30m range
+D1_3F_AP21: (50.0, 60.0, 9.0) -> ~30m range
+D1_3F_AP25: (70.0, 80.0, 9.0) -> ~30m range
+D1_3F_AP26: (90.0, 100.0, 9.0) -> ~30m range
+D1_3F_AP29: (110.0, 120.0, 9.0) -> ~30m range
+
+FULL SIONNA SIMULATION COMMAND:
+python sionna_coverage_map.py \
+  --transmitter_file ./simple_scene.csv \
+  --mitsuba_file ./simple_scene.xml \
+  --output_dir ./demo_3f_simple/full_sionna_results

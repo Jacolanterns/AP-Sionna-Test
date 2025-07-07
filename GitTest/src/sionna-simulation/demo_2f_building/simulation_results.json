@@ -1,0 +1,52 @@
+{
+  "simulation_type": "integration_demo",
+  "building_scene": "./building_2f.xml",
+  "ap_count": 2,
+  "aps": [
+    {
+      "name": "D1_2F_AP16",
+      "position": [
+        10.0,
+        20.0,
+        6.0
+      ],
+      "frequency": 2400000000.0,
+      "power": 20.0
+    },
+    {
+      "name": "D1_2F_AP21",
+      "position": [
+        30.0,
+        40.0,
+        6.0
+      ],
+      "frequency": 2400000000.0,
+      "power": 20.0
+    }
+  ],
+  "coverage_analysis": {
+    "D1_2F_AP16": {
+      "position": [
+        10.0,
+        20.0,
+        6.0
+      ],
+      "estimated_coverage_radius_m": 30.0,
+      "estimated_coverage_area_m2": 2827.431,
+      "signal_frequency_ghz": 2.4,
+      "transmit_power_dbm": 20.0
+    },
+    "D1_2F_AP21": {
+      "position": [
+        30.0,
+        40.0,
+        6.0
+      ],
+      "estimated_coverage_radius_m": 30.0,
+      "estimated_coverage_area_m2": 2827.431,
+      "signal_frequency_ghz": 2.4,
+      "transmit_power_dbm": 20.0
+    }
+  },
+  "total_estimated_coverage_m2": 5654.862
+}

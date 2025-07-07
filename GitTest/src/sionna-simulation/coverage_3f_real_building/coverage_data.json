@@ -1,0 +1,75 @@
+{
+  "simulation_parameters": {
+    "ap_count": 6,
+    "frequency_ghz": 2.4,
+    "grid_resolution_m": 0.5
+  },
+  "ap_positions": [
+    {
+      "name": "D1_3F_AP08",
+      "position": [
+        15.0,
+        25.0,
+        9.0
+      ]
+    },
+    {
+      "name": "D1_3F_AP19",
+      "position": [
+        35.0,
+        45.0,
+        9.0
+      ]
+    },
+    {
+      "name": "D1_3F_AP21",
+      "position": [
+        50.0,
+        60.0,
+        9.0
+      ]
+    },
+    {
+      "name": "D1_3F_AP25",
+      "position": [
+        70.0,
+        80.0,
+        9.0
+      ]
+    },
+    {
+      "name": "D1_3F_AP26",
+      "position": [
+        90.0,
+        100.0,
+        9.0
+      ]
+    },
+    {
+      "name": "D1_3F_AP29",
+      "position": [
+        110.0,
+        120.0,
+        9.0
+      ]
+    }
+  ],
+  "coverage_statistics": {
+    "total_area_points": 72900,
+    "excellent_coverage_percent": 100.0,
+    "good_coverage_percent": 0.0,
+    "fair_coverage_percent": 0.0,
+    "poor_coverage_percent": 0.0,
+    "overall_usable_coverage_percent": 100.0,
+    "signal_strength_stats": {
+      "min_dbm": 0.0,
+      "max_dbm": 0.0,
+      "mean_dbm": 0.0,
+      "median_dbm": 0.0
+    }
+  },
+  "grid_shape": [
+    270,
+    270
+  ]
+}
