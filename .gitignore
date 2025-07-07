@@ -3,6 +3,10 @@
 **/sionna_venv/
 **/.venv/
 **/.env/
+venv/
+sionna_venv/
+.venv/
+.env/
 
 # Large data files
 *.csv
