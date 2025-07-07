@@ -1,0 +1,65 @@
+# Virtual environments
+**/venv/
+**/sionna_venv/
+**/.venv/
+**/.env/
+
+# Large data files
+*.csv
+*.h5
+*.hdf5
+
+# Compiled libraries
+*.so
+*.so.*
+*.dylib
+*.dll
+
+# Compressed archives
+*.tar.gz
+*.zip
+*.rar
+
+# Cache and temporary files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.tmp
+*.temp
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Model files
+*.model
+*.pkl
+*.pickle
+
+# Log files
+*.log
+
+# Build directories
+build/
+dist/
+*.egg-info/
+
+# Documentation
+docs/_build/
